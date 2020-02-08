@@ -1,0 +1,60 @@
+{
+	"Statements": [
+		{
+			"ID": "places",
+			"Text": "What places have you lived (for more than 3 months) during your lifetime?"
+		},
+		{
+			"ID": "cultures",
+			"Text": "What cultural identity(ities) have most shaped your upbringing?"
+		},
+		{
+			"ID": "family growing up",
+			"Text": "What was your family make-up growing up?"
+		},
+		{
+			"ID": "childhood activities",
+			"Text": "What activities were you heavily involved in as a child? How did you spend your time?"
+		},
+		{
+			"ID": "family adult",
+			"Text": "What is your family make-up as an adult?"
+		},
+		{
+			"ID": "adult hobbies",
+			"Text": "What are your favorite hobbies as an adult?"
+		},
+		{
+			"ID": "jobs",
+			"Text": "What have been the most impactful jobs you have held?"
+		},
+		{
+			"ID": "people",
+			"Text": "Who were the most impactful people in your life?"
+		},
+		{
+			"ID": "experiences",
+			"Text": "What were the most impactful experiences in your life?"
+		},
+		{
+			"ID": "became a believer",
+			"Text": "When did you become a believer in Jesus?"
+		},
+		{
+			"ID": "called to purposes",
+			"Text": "What purposes or causes do you feel most drawn to?  What cause makes your heart break or race?  Where could you make the greatest impact for God?"
+		},
+		{
+			"ID": "called to places",
+			"Text": "What places do you feel most called to?  This could be industry, neighborhood, or city."
+		},
+		{
+			"ID": "two needs",
+			"Text": "What are the top two needs you love to meet for people? What are the areas of need that cause your heart to break or race when you encounter that need in someone else?"
+		},
+		{
+			"ID": "cannot fail",
+			"Text": "What would you do for God if you knew you couldn't fail?  What pushes you to action?  What moves you so deeply it keeps you awake at night?"
+		}
+	]
+}

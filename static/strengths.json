@@ -1,0 +1,555 @@
+{
+	"RoundSize": 4,
+	"MaxRounds": 60,
+	"Min": 3,
+	"Max": 5,
+	"ImmediateResults": true,
+	"Candidates": [
+		{
+			"Name": "Achiever",
+			"Description": ["People exceptionally talented in the Achiever theme work hard and possess a great deal of stamina. They take immense satisfaction in being busy and productive. This is an Executing Talent. Strengths in this theme answer the question: how do you make things happen? They may help a team turn ideas into a reality by working tirelessly to accomplish an agreed-upon goal."]
+		},
+		{
+			"Name": "Activator",
+			"Description": ["People exceptionally talented in the Activator theme can make things happen by turning thoughts into action. They want to do things now, rather than simply talk about them. This is an Influencing Talent. Strengths in this theme answer the question: how do you influence others? They may help a team take charge, speak up, and make sure others are are heard by convincing others outside of the team/organization."]
+		},
+		{
+			"Name": "Adaptability",
+			"Description": ["People exceptionally talented in the Adaptability theme prefer to go with the flow. They tend to be 'now' people who take things as they come and discover the future one day at a time. This is a Relationship Building Talent. Strengths in this theme answer the question: how do you build and nurture strong relationships? They may help a team hold together by strengthening bonds between members so that together they can be greater than the sums of their parts."]
+		},
+		{
+			"Name": "Analytical",
+			"Description": ["People exceptionally talented in the Analytical theme search for reasons and causes. They have the ability to think about all of the factors that might affect a situation. This is a Strategic Thinking Talent. Strengths in this theme answer the question: how do you absorb, think about and analyze information and situations? They may help a team make better decisions and create better outcomes by stretching the team’s thinking for the future."]
+		},
+		{
+			"Name": "Arranger",
+			"Description": ["People exceptionally talented in the Arranger theme can organize, but they also have a flexibility that complements this ability. They like to determine how all of the pieces and resources can be arranged for maximum productivity. This is an Executing Talent. Strengths in this theme answer the question: how do you make things happen? They may help a team turn ideas into a reality by working tirelessly to accomplish an agreed-upon goal."]
+		},
+		{
+			"Name": "Belief",
+			"Description": ["People exceptionally talented in the Belief theme have certain core values that are unchanging. Out of these values emerges a defined purpose for their lives. This is an Executing Talent. Strengths in this theme answer the question: how do you make things happen? They may help a team turn ideas into a reality by working tirelessly to accomplish an agreed-upon goal."]
+		},
+		{
+			"Name": "Command",
+			"Description": ["People exceptionally talented in the Command theme have presence. They can take control of a situation and make decisions. This is an Influencing Talent. Strengths in this theme answer the question: how do you influence others? They may help a team take charge, speak up, and make sure others are are heard by convincing others outside of the team/organization."]
+		},
+		{
+			"Name": "Communication",
+			"Description": ["People exceptionally talented in the Communication theme generally find it easy to put their thoughts into words. They are good conversationalists and presenters. This is an Influencing Talent. Strengths in this theme answer the question: how do you influence others? They may help a team take charge, speak up, and make sure others are are heard by convincing others outside of the team/organization."]
+		},
+		{
+			"Name": "Competition",
+			"Description": ["People exceptionally talented in the Competition theme measure their progress against the performance of others. They strive to win first place and revel in contests. This is an Influencing Talent. Strengths in this theme answer the question: how do you influence others? They may help a team take charge, speak up, and make sure others are are heard by convincing others outside of the team/organization."]
+		},
+		{
+			"Name": "Connectedness",
+			"Description": ["People exceptionally talented in the Connectedness theme have faith in the links among all things. They believe there are few coincidences and that almost every event has meaning. This is a Relationship Building Talent. Strengths in this theme answer the question: how do you build and nurture strong relationships? They may help a team hold together by strengthening bonds between members so that together they can be greater than the sums of their parts."]
+		},
+		{
+			"Name": "Consistency",
+			"Description": ["People exceptionally talented in the Consistency theme are keenly aware of the need to treat people the same. They rave stable routines and clear rules and procedures that everyone can follow. This is an Executing Talent. Strengths in this theme answer the question: how do you make things happen? They may help a team turn ideas into a reality by working tirelessly to accomplish an agreed-upon goal."]
+		},
+		{
+			"Name": "Context",
+			"Description": ["People exceptionally talented in the Context theme enjoy thinking about the past. They understand the present by researching its history. This is a Strategic Thinking Talent. Strengths in this theme answer the question: how do you absorb, think about and analyze information and situations? They may help a team make better decisions and create better outcomes by stretching the team’s thinking for the future."]
+		},
+		{
+			"Name": "Deliberative",
+			"Description": ["People exceptionally talented in the Deliberative theme are best described by the serious care they take in making decisions or choices. They anticipate obstacles. This is an Executing Talent. Strengths in this theme answer the question: how do you make things happen? They may help a team turn ideas into a reality by working tirelessly to accomplish an agreed-upon goal."]
+		},
+		{
+			"Name": "Developer",
+			"Description": ["People exceptionally talented in the Developer theme recognize and cultivate the potential in others. They spot the signs of each small improvement and derive satisfaction from evidence of progress. This is a Relationship Building Talent. Strengths in this theme answer the question: how do you build and nurture strong relationships? They may help a team hold together by strengthening bonds between members so that together they can be greater than the sums of their parts."]
+		},
+		{
+			"Name": "Discipline",
+			"Description": ["People exceptionally talented in the Discipline theme enjoy routine and structure. Their world is best described by the order they create. This is an Executing Talent. Strengths in this theme answer the question: how do you make things happen? They may help a team turn ideas into a reality by working tirelessly to accomplish an agreed-upon goal."]
+		},
+		{
+			"Name": "Empathy",
+			"Description": ["People exceptionally talented in the Empathy theme can sense other people’s feelings by imagining themselves in others’ lives or situations. This is a Relationship Building Talent. Strengths in this theme answer the question: how do you build and nurture strong relationships? They may help a team hold together by strengthening bonds between members so that together they can be greater than the sums of their parts."]
+		},
+		{
+			"Name": "Focus",
+			"Description": ["People exceptionally talented in the Focus theme can take a direction, follow through and make the corrections necessary to stay on track. They prioritize, then act. This is an Executing Talent. Strengths in this theme answer the question: how do you make things happen? They may help a team turn ideas into a reality by working tirelessly to accomplish an agreed-upon goal."]
+		},
+		{
+			"Name": "Futuristic",
+			"Description": ["People exceptionally talented in the Futuristic theme are inspired by the future and what could be. They energize others with their visions of the future. This is a Strategic Thinking Talent. Strengths in this theme answer the question: how do you absorb, think about and analyze information and situations? They may help a team make better decisions and create better outcomes by stretching the team’s thinking for the future."]
+		},
+		{
+			"Name": "Harmony",
+			"Description": ["People exceptionally talented in the Harmony theme look for consensus. They don’t enjoy conflict; rather, they seek areas of agreement. This is a Relationship Building Talent. Strengths in this theme answer the question: how do you build and nurture strong relationships? They may help a team hold together by strengthening bonds between members so that together they can be greater than the sums of their parts."]
+		},
+		{
+			"Name": "Ideation",
+			"Description": ["People exceptionally talented in the Ideation themes are fascinated by ideas. They are able to find connections between seemingly disparate phenomena. This is a Strategic Thinking Talent. Strengths in this theme answer the question: how do you absorb, think about and analyze information and situations? They may help a team make better decisions and create better outcomes by stretching the team’s thinking for the future."]
+		},
+		{
+			"Name": "Includer",
+			"Description": ["People exceptionally talented in the Includer theme accept others. They show awareness of those who feel left out and make an effort to include them. This is a Relationship Building Talent. Strengths in this theme answer the question: how do you build and nurture strong relationships? They may help a team hold together by strengthening bonds between members so that together they can be greater than the sums of their parts."]
+		},
+		{
+			"Name": "Individualization",
+			"Description": ["People exceptionally talented in the Individualization theme are intrigued with the unique qualities of each person. They have a gift for figuring out how different people can work together productively. This is a Relationship Building Talent. Strengths in this theme answer the question: how do you build and nurture strong relationships? They may help a team hold together by strengthening bonds between members so that together they can be greater than the sums of their parts."]
+		},
+		{
+			"Name": "Input",
+			"Description": ["People exceptionally talented in the Input theme have a need to collect and archive. They may accumulate information, ideas, or artifacts or even relationships. This is a Strategic Thinking Talent. Strengths in this theme answer the question: how do you absorb, think about and analyze information and situations? They may help a team make better decisions and create better outcomes by stretching the team’s thinking for the future."]
+		},
+		{
+			"Name": "Intellection",
+			"Description": ["People exceptionally talented in the Intellection theme are characterized by their intellectual activity. They are introspective and appreciate intellectual discussions. This is a Strategic Thinking Talent. Strengths in this theme answer the question: how do you absorb, think about and analyze information and situations? They may help a team make better decisions and create better outcomes by stretching the team’s thinking for the future."]
+		},
+		{
+			"Name": "Learner",
+			"Description": ["People exceptionally talented in the Learner theme have a great desire to learn and want to continuously improve. The process of learning, rather than the outcome, excites them. This is a Strategic Thinking Talent. Strengths in this theme answer the question: how do you absorb, think about and analyze information and situations? They may help a team make better decisions and create better outcomes by stretching the team’s thinking for the future."]
+		},
+		{
+			"Name": "Maximizer",
+			"Description": ["People exceptionally talented in the Maximizer theme focus on strengths as a way to stimulate personal and group excellence. They seek to transform something strong into something superb. This is an Influencing Talent. Strengths in this theme answer the question: how do you influence others? They may help a team take charge, speak up, and make sure others are are heard by convincing others outside of the team/organization."]
+		},
+		{
+			"Name": "Positivity",
+			"Description": ["People exceptionally talented in the Positivity theme have contagious enthusiasm. They are upbeat and can get others excited about what they are going to do. This is a Relationship Building Talent. Strengths in this theme answer the question: how do you build and nurture strong relationships? They may help a team hold together by strengthening bonds between members so that together they can be greater than the sums of their parts."]
+		},
+		{
+			"Name": "Relator",
+			"Description": ["People exceptionally talented in the Relator theme enjoy close relationships with others. They find deep satisfaction in working hard with friend to achieve a goal. This is a Relationship Building Talent. Strengths in this theme answer the question: how do you build and nurture strong relationships? They may help a team hold together by strengthening bonds between members so that together they can be greater than the sums of their parts."]
+		},
+		{
+			"Name": "Responsibility",
+			"Description": ["People exceptionally talented in the Responsibility theme take psychological ownership of what they say they will do. They are committed to stable values such as honesty and loyalty. This is an Executing Talent. Strengths in this theme answer the question: how do you make things happen? They may help a team turn ideas into a reality by working tirelessly to accomplish an agreed-upon goal."]
+		},
+		{
+			"Name": "Restorative",
+			"Description": ["People exceptionally talented in the Restorative theme are adept at dealing with problems. They are good at figuring out what is wrong and resolving it. This is an Executing Talent. Strengths in this theme answer the question: how do you make things happen? They may help a team turn ideas into a reality by working tirelessly to accomplish an agreed-upon goal."]
+		},
+		{
+			"Name": "Self-Assurance",
+			"Description": ["People exceptionally talented in the Self-Assurance theme feel confident in their ability to take risks and manage their own lives. They have an inner compass that gives them certainty in their decisions. This is an Influencing Talent. Strengths in this theme answer the question: how do you influence others? They may help a team take charge, speak up, and make sure others are are heard by convincing others outside of the team/organization."]
+		},
+		{
+			"Name": "Significance",
+			"Description": ["People exceptionally talented in the Significance theme want to make a big impact. They are independent and prioritize projects based on how much influence they will have on their organization or people around them. This is an Influencing Talent. Strengths in this theme answer the question: how do you influence others? They may help a team take charge, speak up, and make sure others are are heard by convincing others outside of the team/organization."]
+		},
+		{
+			"Name": "Strategic",
+			"Description": ["People exceptionally talented in the Strategic theme create alternative ways to proceed. Faced with any given scenario, they can quickly spot the relevant patterns and issues. This is a Strategic Thinking Talent. Strengths in this theme answer the question: how do you absorb, think about and analyze information and situations? They may help a team make better decisions and create better outcomes by stretching the team’s thinking for the future."]
+		},
+		{
+			"Name": "Woo",
+			"Description": ["People exceptionally talented in the Woo theme love the challenge of meeting new people and winning them over. They derive satisfaction from breaking the ice and making a connection with someone. This is an Influencing Talent. Strengths in this theme answer the question: how do you influence others? They may help a team take charge, speak up, and make sure others are are heard by convincing others outside of the team/organization."]
+			}
+		],
+	"Statements": [
+		{
+			"Candidates": [0],
+			"Text":	 "I work very hard to complete each task on my long 'to do' list."
+		},
+		{
+			"Candidates": [0],
+			"Text":	 "I am busy and productive, deriving satisfaction from my accomplishments."
+		},
+		{
+			"Candidates": [0],
+			"Text":	 "I have a great deal of stamina and determination to achieve my goals."
+		},
+		{
+			"Candidates": [1],
+			"Text":	 "I can see how ideas can be turned into action."
+		},
+		{
+			"Candidates": [1],
+			"Text":	 "I want to do things now, rather than simply talk about doing them."
+		},
+		{
+			"Candidates": [1],
+			"Text":	 "I make things happen and get other people to take action."
+		},
+		{
+			"Candidates": [2],
+			"Text":	 "I can modify myself depending on the demands of my environment."
+		},
+		{
+			"Candidates": [2],
+			"Text":	 "I adjust to many things all day long because I live in the moment."
+		},
+		{
+			"Candidates": [2],
+			"Text":	 "I discover the future out of the choices I make now, one choice at a time."
+		},
+		{
+			"Candidates": [3],
+			"Text":	 "I search for the reasons why things are the way they are."
+		},
+		{
+			"Candidates": [3],
+			"Text":	 "I think about the factors that might affect a situation and cause certain reactions."
+		},
+		{
+			"Candidates": [3],
+			"Text":	 "I am critical about why people may claim something is true and want to see the proof."
+		},
+		{
+			"Candidates": [4],
+			"Text":	 "I am highly organized and highly flexible."
+		},
+		{
+			"Candidates": [4],
+			"Text":	 "I can get a lot done, even though I usually have many projects going at the same time."
+		},
+		{
+			"Candidates": [4],
+			"Text":	 "I enjoy coordinating all of the complex factors that make a project successful."
+		},
+		{
+			"Candidates": [5],
+			"Text":	 "I have core values that are unchanging even if other people oppose my beliefs."
+		},
+		{
+			"Candidates": [5],
+			"Text":	 "I have deeply held ideas about what is, what should be, and the purpose of my life."
+		},
+		{
+			"Candidates": [5],
+			"Text":	 "I become energetic about a task or role that promotes one of my deeply held beliefs."
+		},
+		{
+			"Candidates": [6],
+			"Text":	 "I see what needs to be done, and I am willing to say so."
+		},
+		{
+			"Candidates": [6],
+			"Text":	 "I am willing to go into a confrontation because I know that what is right will prevail."
+		},
+		{
+			"Candidates": [6],
+			"Text":	 "I can jump into a conflict, crisis, or emergency and take charge of the situation."
+		},
+		{
+			"Candidates": [7],
+			"Text":	 "I like to talk, and I am good at it."
+		},
+		{
+			"Candidates": [7],
+			"Text":	 "I can explain things and make them clear."
+		},
+		{
+			"Candidates": [7],
+			"Text":	 "I tell particularly captivating stories by constructing mental images in the mind of others."
+		},
+		{
+			"Candidates": [8],
+			"Text":	 "I want to win, which usually means outperforming others."
+		},
+		{
+			"Candidates": [8],
+			"Text":	 "I will work very hard to excel in my peer group or industry."
+		},
+		{
+			"Candidates": [8],
+			"Text":	 "I constantly compare myself and my performance to other people and their performance."
+		},
+		{
+			"Candidates": [9],
+			"Text":	 "I see that all things happen for a reason and in a purposeful way."
+		},
+		{
+			"Candidates": [9],
+			"Text":	 "I feel connected to life itself. Therefore, I am considerate and accepting towards others."
+		},
+		{
+			"Candidates": [9],
+			"Text":	 "I am a bridge builder for people from all backgrounds to come together and go beyond themselves."
+		},
+		{
+			"Candidates": [10],
+			"Text":	 "I try to treat everyone consistently by having clear rules and applying them to everyone."
+		},
+		{
+			"Candidates": [10],
+			"Text":	 "I am offended when some people gain an advantage because of their connections or strategies."
+		},
+		{
+			"Candidates": [10],
+			"Text":	 "I believe that people work best in a consistent environment and I work to create this environment."
+		},
+		{
+			"Candidates": [11],
+			"Text":	 "I look to the past to understand the present."
+		},
+		{
+			"Candidates": [11],
+			"Text":	 "I see patterns that emerge from studying what happened before."
+		},
+		{
+			"Candidates": [11],
+			"Text":	 "I learn best when I place information in the context of history and other important dynamics."
+		},
+		{
+			"Candidates": [12],
+			"Text":	 "I take great care as I consider options, thinking through the pros and cons of each alternative."
+		},
+		{
+			"Candidates": [12],
+			"Text":	 "To me, making the correct decision is more important than the time it takes to do so."
+		},
+		{
+			"Candidates": [12],
+			"Text":	 "I make very good decisions. In fact, I would change few of my choices or decisions."
+		},
+		{
+			"Candidates": [13],
+			"Text":	 "I can see how other people can move, change, grow, and develop for the better."
+		},
+		{
+			"Candidates": [13],
+			"Text":	 "I love to see others make progress, and I will notice even the slightest progress."
+		},
+		{
+			"Candidates": [13],
+			"Text":	 "When I am part of someone's development, it is the best experience in the world for me."
+		},
+		{
+			"Candidates": [14],
+			"Text":	 "I find ways to organize myself to get things done on time."
+		},
+		{
+			"Candidates": [14],
+			"Text":	 "I tend to place myself in productive environments."
+		},
+		{
+			"Candidates": [14],
+			"Text":	 "I create order and structure where it is needed."
+		},
+		{
+			"Candidates": [15],
+			"Text":	 "I can sense what it feels like to be someone else."
+		},
+		{
+			"Candidates": [15],
+			"Text":	 "I can pick up on the pain and joy of others, and others experience my compassion."
+		},
+		{
+			"Candidates": [15],
+			"Text":	 "Because I can quickly understand others, people come to me when they have a need or a problem."
+		},
+		{
+			"Candidates": [16],
+			"Text":	 "I can take direction, follow through, and make the necessary corrections to stay on track."
+		},
+		{
+			"Candidates": [16],
+			"Text":	 "I prioritize my life and tasks, and then I take action."
+		},
+		{
+			"Candidates": [16],
+			"Text":	 "I set goals that keep me effective and efficient."
+		},
+		{
+			"Candidates": [17],
+			"Text":	 "I am fascinated by the future, and I usually see the future positively."
+		},
+		{
+			"Candidates": [17],
+			"Text":	 "I can see in detail what the future might hold."
+		},
+		{
+			"Candidates": [17],
+			"Text":	 "I can energize myself and others by my vision of what could be."
+		},
+		{
+			"Candidates": [18],
+			"Text":	 "I want peace, and try to bring people together."
+		},
+		{
+			"Candidates": [18],
+			"Text":	 "I can see points that people have in common, even when they are in conflict."
+		},
+		{
+			"Candidates": [18],
+			"Text":	 "I seek to help individuals, families, and organizations work together."
+		},
+		{
+			"Candidates": [19],
+			"Text":	 "I am a creative person, and I appreciate originality."
+		},
+		{
+			"Candidates": [19],
+			"Text":	 "I like free-thinking experiences such as brainstorming and discussion groups."
+		},
+		{
+			"Candidates": [19],
+			"Text":	 "I love new ideas and concepts."
+		},
+		{
+			"Candidates": [20],
+			"Text":	 "I notice people who feel like outsiders or who feel unappreciated."
+		},
+		{
+			"Candidates": [20],
+			"Text":	 "I am not content when people are left out, so I try to reach out to the 'outsiders.’"
+		},
+		{
+			"Candidates": [20],
+			"Text":	 "People see me as accepting and sense that I want them to be included."
+		},
+		{
+			"Candidates": [21],
+			"Text":	 "I see each person as a distinct, one-of-a-kind individual."
+		},
+		{
+			"Candidates": [21],
+			"Text":	 "I can see how people who are very different can work together."
+		},
+		{
+			"Candidates": [21],
+			"Text":	 "I can build productive teams of people because I structure the team around each person’s talents."
+		},
+		{
+			"Candidates": [22],
+			"Text":	 "I always want to know more. I crave information."
+		},
+		{
+			"Candidates": [22],
+			"Text":	 "I like to collect certain things, such as ideas, books, memorabilia, quotations, and facts."
+		},
+		{
+			"Candidates": [22],
+			"Text":	 "I have an active curiosity. I find many things very interesting."
+		},
+		{
+			"Candidates": [23],
+			"Text":	 "I love to study, and I prefer intellectual discussions."
+		},
+		{
+			"Candidates": [23],
+			"Text":	 "I like to think and to let my thoughts go in many directions."
+		},
+		{
+			"Candidates": [23],
+			"Text":	 "I like to spend time alone so I can reflect and ponder."
+		},
+		{
+			"Candidates": [24],
+			"Text":	 "I want to continuously learn and improve."
+		},
+		{
+			"Candidates": [24],
+			"Text":	 "I enjoy the process of learning as much as what I actually learn."
+		},
+		{
+			"Candidates": [24],
+			"Text":	 "I get a thrill out of learning new facts, subjects, skills. Learning builds my confidence."
+		},
+		{
+			"Candidates": [25],
+			"Text":	 "I see talents and strengths in others, sometimes before they do."
+		},
+		{
+			"Candidates": [25],
+			"Text":	 "I love to help others become excited by the potential of their natural talents."
+		},
+		{
+			"Candidates": [25],
+			"Text":	 "I have the capacity to see what people do best and match this to the tasks that must be completed."
+		},
+		{
+			"Candidates": [26],
+			"Text":	 "I bring enthusiasm to people, groups, and organizations."
+		},
+		{
+			"Candidates": [26],
+			"Text":	 "I can stimulate people to be more productive and become more hopeful."
+		},
+		{
+			"Candidates": [26],
+			"Text":	 "I can get people excited about what they are doing, and therefore become more productive."
+		},
+		{
+			"Candidates": [27],
+			"Text":	 "I can form close relationships with people, and I enjoy doing so."
+		},
+		{
+			"Candidates": [27],
+			"Text":	 "I receive profound satisfaction from working hard with friends to accomplish an important goal."
+		},
+		{
+			"Candidates": [27],
+			"Text":	 "I know all kinds of people, but I also have a small group of incredibly deep relationships."
+		},
+		{
+			"Candidates": [28],
+			"Text":	 "I am dependable, and people know they can count on me."
+		},
+		{
+			"Candidates": [28],
+			"Text":	 "I don't want to let people down, so I work very hard to fulfill all my responsibilities."
+		},
+		{
+			"Candidates": [28],
+			"Text":	 "I have many commitments because so many people know that they can count on me."
+		},
+		{
+			"Candidates": [29],
+			"Text":	 "I readily take on projects that others believe 'can't be saved.'"
+		},
+		{
+			"Candidates": [29],
+			"Text":	 "I can analyze a situation and identify potential shortcomings and solutions."
+		},
+		{
+			"Candidates": [29],
+			"Text":	 "I quickly recognize problems that others may not detect."
+		},
+		{
+			"Candidates": [30],
+			"Text":	 "I am confident about my ability to manage my own life."
+		},
+		{
+			"Candidates": [30],
+			"Text":	 "I can 'bounce back' from disappointments and crises."
+		},
+		{
+			"Candidates": [30],
+			"Text":	 "I believe that my decisions are right and that my perspective is unique and distinct."
+		},
+		{
+			"Candidates": [31],
+			"Text":	 "I often enjoy receiving public recognition for the differences I make."
+		},
+		{
+			"Candidates": [31],
+			"Text":	 "I want to have an impact on other people, groups, and society as a whole."
+		},
+		{
+			"Candidates": [31],
+			"Text":	 "I want the contributions I make to be viewed as substantial, powerful, and significant."
+		},
+		{
+			"Candidates": [32],
+			"Text":	 "I create multiple ways to do things."
+		},
+		{
+			"Candidates": [32],
+			"Text":	 "I can quickly pick out the relevant issues and patterns when confronted with problems."
+		},
+		{
+			"Candidates": [32],
+			"Text":	 "The question ‘what if this happens?’ helps me see, plan, and prepare for future situations."
+		},
+		{
+			"Candidates": [33],
+			"Text":	 "I have the capacity to quickly connect with people and generate positive responses from them."
+		},
+		{
+			"Candidates": [33],
+			"Text":	 "I can enter a crowd of people and easily know what to do and what to say."
+		},
+		{
+			"Candidates": [33],
+			"Text":	 "I see no strangers, only friends I haven't met yet."
+		}
+	]
+}

@@ -1,0 +1,490 @@
+{
+	"RoundSize": 4,
+	"MaxRounds": 45,
+	"Min": 3,
+	"Max": 5,
+	"Candidates": [
+      {
+        "Name": "administration",
+        "Description": [
+          "kubernesis – a shipmaster or captain, to steer or govern",
+          "One who organizes towards God's mission",
+          "A Motivation gift • Acts 27:11, Revelations 18:17, 1 Corinthians 12:28, Titus 1:4-5"
+        ]
+      },
+      {
+        "Name": "apostleship",
+        "Description": [
+          "apostolous – a messenger, envoy, delegate, someone sent",
+          "One who is sent",
+          "A Ministry gift • Ephesians 4:7-12, 1 Corinthians 9:1, 12:28, Acts 1:21-22"
+        ]
+      },
+      {
+        "Name": "discernment",
+        "Description": [
+          "diakrisis – to distinguish, discern, judge, or appraise",
+          "One who can distinguish the ministry of the Holy Spirit from false spirits/lies",
+          "A Manifestation Gift • 1 Corinthians 12:10, Hebrews 5:14, Acts 5:3-6, 16:16-18, 1 John 4:1"
+        ]
+      },
+      {
+        "Name": "evangelism",
+        "Description": [
+          "euaggelistes – one who brings good news",
+          "One who shares the gospel and draws seekers in",
+          "A Ministry Gift • Acts 21:8, 2 Timothy 4:5, Ephesians 4:11, Acts 8:5-12, 26-40, 21:8, Matthew 28:18-20"
+        ]
+      },
+      {
+        "Name": "exhortation",
+        "Description": [
+          "parakaleo – to beseech, exhort, call upon, encourage",
+          "One who champions spiritual progress",
+          "A Motivation Gift • Titus 1:9, Titus 2:11-15, 2 Timothy 4:2, Romans 12:8, Acts 11:23-24; 14:21-22; 15:32"
+        ]
+      },
+      {
+        "Name": "faith",
+        "Description": [
+          "pistis – confidence, certainty, trust, assurance in the object of faith",
+          "A supernatural ability to trust God or inspire trust in God",
+          "A Manifestation gift • Acts 3:1-10, Matthew 17:20, 21:21, 1 Corinthians 13:3, 1 Corinthians 12:9, Hebrews 11:1-40"
+        ]
+      },
+      {
+        "Name": "giving",
+        "Description": [
+          "metadidami – to impart, give sincerely, generously",
+          "One who keeps the church resourced for mission",
+          "A Motivation Gift • Romans 12:8, 13, 2 Corinthians 8:1-5, 9:6-15, Acts 4:32-37, Galatians 4:15, Philippians 4:10-18"
+        ]
+      },
+      {
+        "Name": "healing",
+        "Description": [
+          "charismata iamaton – gifts of healing",
+          "One who demonstrates God's powerful hand through healing",
+          "A Manifestation Gift • 1 Corinthians 12:9, 28, 30; 2 Corinthians 12:7-10; James 5:13-16"
+        ]
+      },
+      {
+        "Name": "interpretation",
+        "Description": [
+          "SUZY FILL THIS ONE OUT!!",
+          "THIS IS PROBABLY SOMEONE WHO INTERPRETS TONGUES!!",
+          "SOMEKINDOF Gift • Old and new testaments"
+        ]
+      },
+      {
+        "Name": "knowledge",
+        "Description": [
+          "gnosis – knowledge, understanding",
+          "One who provides spiritual insight",
+          "A Manifestation Gift • 1 Corinthians 1:4-7, 18-31, 12:8, Romans 15:14, 2 Corinthians 2:14"
+        ]
+      },
+      {
+        "Name": "leadership",
+        "Description": [
+          "proistemi – to lead, assist, protect, and care for others",
+          "One who provides direction &amp; focus on the mission",
+          "A Motivation Gift • Romans 12:8, 1 Thessalonians 5:12-13, 1 Timothy 3:4-5, 12, 5:17"
+        ]
+      },
+      {
+        "Name": "mercy",
+        "Description": [
+          "eleeo – to be patient and compassionate toward those who are suffering or afflicted",
+          "One who keeps us centered on God's love",
+          "A Motivation Gift • Matthew 5:7, 18:33, Ephesians 2:4-6, Romans 12:8, 15, Luke 10:30-37, James 3:17, Jude 22-23"
+        ]
+      },
+      {
+        "Name": "miracles",
+        "Description": [
+          "energemata dynameon – workings of power",
+          "One who demonstrates God’s powerful hand through various kinds of miracles",
+          "A Manifestation Gift • 1 Corinthians 12:10, 28-29; Acts 1:8, 4:29-31, 9:35, 42; Galatians 3:5"
+        ]
+      },
+      {
+        "Name": "prophecy",
+        "Description": [
+          "propheteia – to deliver a divinely inspired message to others",
+          "One who can discern and declare the will of God",
+          "A Motivation, Ministry, &amp; Manifestation Gift • Romans 12:6, 1 Corinthians 12:10, 14:1-5, 22-33, Ephesians 4:11-12, 1 Peter 4:10-11, 1 Thes 5:20-21"
+        ]
+      },
+      {
+        "Name": "serving",
+        "Description": [
+          "diakonia – to wait tables; antilepsis- helping",
+          "One who meets practical needs, keeps ministry moving",
+          "A Motivation Gift • Romans 12:7, 1 Corinthians 12:4-7, 28, 16:15-16, Acts 6:1-7, 20:35, 2 Timothy 4:11, Revelations 2:19"
+        ]
+      },
+      {
+        "Name": "shepherding",
+        "Description": [
+          "poimen – a shepherd, overseer",
+          "One who nurtures and protects the flock",
+          "A Ministry Gift • 1 Timothy 3:1-17, Titus 1:6-9, Ephesians 4:11, Jeremiah 3:15, Acts 20:28, John 10:11-18"
+        ]
+      },
+      {
+        "Name": "teaching",
+        "Description": [
+          "didaskalos – to teach, instruct, instill, explain, expound",
+          "One who keeps us learning and growing",
+          "A Ministry &amp; Motivation Gift • James 3:1, Romans 12:7, Ephesians 4:11, 1 Corinthians 12:28, 1 Timothy 3:15"
+        ]
+      },
+      {
+        "Name": "tongues",
+        "Description": [
+          "glosso – a tongue, a language",
+          "A supernatural ability to communicate in another or heavenly language",
+          "A Manifestation Gift • 1 Corinthians 12 &amp; 14; Acts 2:4, 19:6"
+        ]
+      },
+      {
+        "Name": "wisdom",
+        "Description": [
+          "sophia – the intimate knowledge and understanding of God's Word which leads to holy living",
+          "One who champions holy living",
+          "A Manifestation Gift • 1 Corinthians 1:17-31, 2:1-16, 12:8, Psalm 111:10, Colossians 1:9-10, 2:1-3, James 3:13-18"
+        ]
+      }
+	],
+	"Statements": [
+		{
+			"Candidates": [0],
+			"Text":       "I'm energized by organizing people to accomplish many different tasks and objectives."
+		},
+		{
+			"Candidates": [1],
+			"Text":       "I like to venture out and start new projects."
+		},
+		{
+			"Candidates": [2],
+			"Text":       "I can easily determine whether a statement is true to Scripture or not."
+		},
+		{
+			"Candidates": [3],
+			"Text":       "I can clearly and effectively communicate the Gospel to others."
+		},
+		{
+			"Candidates": [4],
+			"Text":       "I believe everyone needs encouragement in this life, and I love to give it."
+		},
+		{
+			"Candidates": [5],
+			"Text":       "I live confidently knowing that God is intimately concerned and involved with my life."
+		},
+		{
+			"Candidates": [6],
+			"Text":       "I live a simple lifestyle so that I can give a large portion of my income to God's work."
+		},
+		{
+			"Candidates": [9],
+			"Text":       "People ask me my perspective or interpretation of specific passages of Scripture."
+		},
+		{
+			"Candidates": [10],
+			"Text":       "I have been told that I am a 'dreamer'."
+		},
+		{
+			"Candidates": [11],
+			"Text":       "I have great empathy for those who are facing difficult life challenges."
+		},
+		{
+			"Candidates": [13],
+			"Text":       "I am very protective of the spiritual well-being of others."
+		},
+		{
+			"Candidates": [14],
+			"Text":       "God sometimes gives me an image, word, or message to share with someone."
+		},
+		{
+			"Candidates": [15],
+			"Text":       "I enjoy doing everyday tasks that support the various ministries of the church."
+		},
+		{
+			"Candidates": [16],
+			"Text":       "I spend extended time studying the Bible knowing that my efforts will benefit someone else."
+		},
+		{
+			"Candidates": [18],
+			"Text":       "I have helpful insights into situations that have not been made clear to others."
+		},
+		{
+			"Candidates": [0],
+			"Text":       "I have supernatural eyes to see what needs to be done and implement a plan to make it happen."
+		},
+		{
+			"Candidates": [1],
+			"Text":       "I am willing to take risks for the kingdom of God that others may not."
+		},
+		{
+			"Candidates": [2],
+			"Text":       "I pay attention to what people say and how they say it, particularly those who teach."
+		},
+		{
+			"Candidates": [3],
+			"Text":       "I feel a burden of compassion for those who are lost without Jesus."
+		},
+		{
+			"Candidates": [4],
+			"Text":       "When people are discouraged, I remind them of the power and promises of God found in Scripture."
+		},
+		{
+			"Candidates": [5],
+			"Text":       "I trust God completely to answer my prayers according to His perfect will."
+		},
+		{
+			"Candidates": [6],
+			"Text":       "I joyfully give of my income - often more than a tithe."
+		},
+		{
+			"Candidates": [9],
+			"Text":       "The Spirit has brought to mind information that I have used to minister to others effectively."
+		},
+		{
+			"Candidates": [10],
+			"Text":       "I have a vision for my ministry/community and I know what needs to be done to accomplish it."
+		},
+		{
+			"Candidates": [11],
+			"Text":       "I see the sick or needy as those who most need the love and comfort that Jesus offers."
+		},
+		{
+			"Candidates": [13],
+			"Text":       "I love spending time nurturing and guiding others in their faith."
+		},
+		{
+			"Candidates": [14],
+			"Text":       "I have sometimes received a revelation from the Lord and spoken it to a person or group."
+		},
+		{
+			"Candidates": [15],
+			"Text":       "I readily volunteer to help in church when I know it will fill a practical need."
+		},
+		{
+			"Candidates": [16],
+			"Text":       "I effectively communicate the Bible in ways that influence and motivate others to learn more."
+		},
+		{
+			"Candidates": [18],
+			"Text":       "I have learned from my life experiences and can guide others who are facing similar challenges."
+		},
+		{
+			"Candidates": [0],
+			"Text":       "I naturally serve others by delegating responsibility to them and trusting them."
+		},
+		{
+			"Candidates": [1],
+			"Text":       "I can minister to people in different cultures effectively."
+		},
+		{
+			"Candidates": [2],
+			"Text":       "I am a quick and accurate judge of character."
+		},
+		{
+			"Candidates": [3],
+			"Text":       "I build relationships with non-Christians so that God will use me to share the gospel with them."
+		},
+		{
+			"Candidates": [4],
+			"Text":       "I am compelled to challenge and inspire growth in those whose faith is stagnant."
+		},
+		{
+			"Candidates": [5],
+			"Text":       "I know God will come through even if I don't see any possible solution to my problem."
+		},
+		{
+			"Candidates": [6],
+			"Text":       "Giving brings me great joy because I know this will serve others and extend the kingdom."
+		},
+		{
+			"Candidates": [9],
+			"Text":       "I study the Bible in order to share truth with others in and outside the church."
+		},
+		{
+			"Candidates": [10],
+			"Text":       "I am not afraid to take risks to advance the kingdom of God through my church or ministry."
+		},
+		{
+			"Candidates": [11],
+			"Text":       "I care deeply about those who are hurting and want to help them navigate through tough times."
+		},
+		{
+			"Candidates": [13],
+			"Text":       "I desire to help the wounded and lost find healing and shelter in Jesus Christ."
+		},
+		{
+			"Candidates": [14],
+			"Text":       "The Lord has spontaneously given me information to share with someone so they can experience God's love or guidance."
+		},
+		{
+			"Candidates": [15],
+			"Text":       "I like to be in the background and have no need of recognition for my service in the church."
+		},
+		{
+			"Candidates": [16],
+			"Text":       "I am able to explain deep theological truths in ways that even a child can understand them."
+		},
+		{
+			"Candidates": [18],
+			"Text":       "I help people by offering Scriptural principles as solutions to life's various challenges."
+		},
+		{
+			"Candidates": [0],
+			"Text":       "I love to serve the church by helping it run more efficiently."
+		},
+		{
+			"Candidates": [1],
+			"Text":       "God has given me influence over several different ministries and/or churches."
+		},
+		{
+			"Candidates": [2],
+			"Text":       "I can readily sense the enemy or a demonic influence in a situation."
+		},
+		{
+			"Candidates": [3],
+			"Text":       "I love to memorize Scripture to share with those who don't know Jesus as their Savior."
+		},
+		{
+			"Candidates": [4],
+			"Text":       "I am not afraid to challenge someone if I know it will foster spiritual growth in their life."
+		},
+		{
+			"Candidates": [5],
+			"Text":       "I will boldly move forward in a situation if I sense God's calling and provision to do so."
+		},
+		{
+			"Candidates": [6],
+			"Text":       "I have been blessed financially so I can be a blessing to the church and her mission to reach the lost and help the poor."
+		},
+		{
+			"Candidates": [9],
+			"Text":       "I retain most of what I learn and can recall it quickly when the need arises."
+		},
+		{
+			"Candidates": [10],
+			"Text":       "I can readily identify leaders and love to help them grow in their gifts and abilities."
+		},
+		{
+			"Candidates": [11],
+			"Text":       "I love to see people through the storms of life and show them the compassion that Jesus did."
+		},
+		{
+			"Candidates": [13],
+			"Text":       "I care about the church and do all I can to see it grow and be built up in love."
+		},
+		{
+			"Candidates": [14],
+			"Text":       "God sometimes lay a particular person or matter on my mind to intercede for."
+		},
+		{
+			"Candidates": [15],
+			"Text":       "I set aside time in my week to help those in need in my church and community."
+		},
+		{
+			"Candidates": [16],
+			"Text":       "I hate it when someone uses Scripture out of context for their own purposes."
+		},
+		{
+			"Candidates": [18],
+			"Text":       "I can see where a person’s decisions will lead them, and can offer godly guidance."
+		},
+		{
+			"Candidates": [7],
+			"Text":       "I have often felt moved to pray for those who are sick and to boldly pray for their healing."
+		},
+		{
+			"Candidates": [12],
+			"Text":       "I believe God still performs miracles today. What God did in the Scriptures, He still does."
+		},
+		{
+			"Candidates": [17],
+			"Text":       "I have at times spoken in an unknown language while in prayer or worship."
+		},
+		{
+			"Candidates": [8],
+			"Text":       "I have heard someone else speaking in a unknown language, and have been able to translate."
+		},
+		{
+			"Candidates": [7],
+			"Text":       "I have laid hands on a sick person and seen God heal them through me."
+		},
+		{
+			"Candidates": [12],
+			"Text":       "I have prayed for God to intervene in a miraculous way and have witnessed answered pray."
+		},
+		{
+			"Candidates": [17],
+			"Text":       "The Spirit sometimes empowers me to speak in a language that is unknown to me."
+		},
+		{
+			"Candidates": [8],
+			"Text":       "The Spirit sometimes enables me to translate what another person is saying, even if no one else is able to translate."
+		},
+		{
+			"Candidates": [7],
+			"Text":       "I have prayed in a group for someone to be healed and have seen full or partial healing."
+		},
+		{
+			"Candidates": [12],
+			"Text":       "I believe Jesus’ promise that if we have faith we can say to a mountain, 'be thrown into the sea.'"
+		},
+		{
+			"Candidates": [17],
+			"Text":       "While in prayer or worship, I will sometimes break into a spontaneous prayer language."
+		},
+		{
+			"Candidates": [8],
+			"Text":       "I feel comfortable around people speaking in tongues, and often pray that God will help me interpret tongues for the benefit of the community."
+		},
+		{
+			"Candidates": [7],
+			"Text":       "I deeply believe God heals people and continues to demonstrate His love through healing."
+		},
+		{
+			"Candidates": [12],
+			"Text":       "I have witnessed God perform miracles through me or through other people."
+		},
+		{
+			"Candidates": [17],
+			"Text":       "I sometimes sense the Spirit communicating through me, and when I open my mouth the message is delivered in another language."
+		},
+		{
+			"Candidates": [8],
+			"Text":       "I have interpreted another person's prayer or message to the benefit of the audience/listener."
+		},
+		{
+			"Candidates": [0, 4, 6, 10, 11, 15, 14, 16],
+			"Text":       "I serve the church in the places I see the most need and am most passionate to meet that need."
+		},
+		{
+			"Candidates": [0, 4, 6, 10, 11, 15, 14, 16],
+			"Text":       "I seek to meet practical, spiritual, or emotional needs in the church."
+		},
+		{
+			"Candidates": [1, 3, 13, 14, 16],
+			"Text":       "I long to see the Kingdom of God advance and the Body of Christ grow to full maturity."
+		},
+		{
+			"Candidates": [1, 3, 13, 14, 16],
+			"Text":       "I work to build up the Body through strategic initiatives caring for those inside and outside of the church."
+		},
+		{
+			"Candidates": [2, 5, 7, 9, 12, 17, 18, 8, 14],
+			"Text":       "I love to reveal God to others through a supernatural revelation of His voice, mind, or hand."
+		},
+		{
+			"Candidates": [2, 5, 7, 9, 12, 17, 18, 8, 14],
+			"Text":       "I believe that God still moves today in signs, wonders, miracles, and prophecy."
+		}
+	]
+}

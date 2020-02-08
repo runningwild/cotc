@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head style="overflow-x:hidden">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+	<link rel="stylesheet" href="/static/layout.css">
+</head>
+<body>
+<div class="main">
+<div class="content">
+<div class="grids-example">
+<div class="pure-g">
+    <div class="pure-u-1">
+    {{if .AllDone}}
+        You're all done - see you soon!
+    {{else}}
+        Welcome, {{$.User.FirstName}}!  Please take some time to answer the questions in each of the sections below.
+    {{end}}
+    </div>
+    <div class="pure-u-1">
+		{{if gt (len .GICMP.Results) 0}}
+    		<a class="pure-button already-completed" href="/gicmp?user={{$.UserKey}}">GICMP (complete)</a>
+		{{else}}
+    		<a class="pure-button pure-button-primary" href="/gicmp?user={{$.UserKey}}">GICMP</a>
+		{{end}}
+    </div>
+	{{range $a,$b := .Responses}}
+	    <div class="pure-u-1">
+		{{if gt (len $b.Results) 0}}
+			<a class="pure-button already-completed" href="/survey/{{$a}}?user={{$.UserKey}}">{{$a}} (complete)</a>
+		{{else}}
+			<a class="pure-button pure-button-primary" href="/survey/{{$a}}?user={{$.UserKey}}">{{$a}}</a>
+		{{end}}
+		</div>
+	{{end}}
+    <div class="pure-u-1">
+    {{if gt (len .Skills.Results) 0}}
+        <a class="pure-button already-completed" href="/skills?user={{$.UserKey}}">skills (complete)</a>
+    {{else}}
+        <a class="pure-button pure-button-primary" href="/skills?user={{$.UserKey}}">skills</a>
+    {{end}}
+    </div>
+    <div class="pure-u-1">
+    {{if gt (len .Experiences.Results) 0}}
+        <a class="pure-button already-completed" href="/experiences?user={{$.UserKey}}">experiences (complete)</a>
+    {{else}}
+        <a class="pure-button pure-button-primary" href="/experiences?user={{$.UserKey}}">experiences</a>
+    {{end}}
+    </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

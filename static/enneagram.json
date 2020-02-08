@@ -1,0 +1,227 @@
+{
+	"RoundSize": 3,
+	"MaxRounds": 25,
+	"Min": 1,
+	"Max": 1,
+	"ImmediateResults": true,
+	"Candidates": [
+		{
+			"Name": "9: The Peacemaker",
+			"Description": ["Receptive, reassuring, agreeable, accepting, trusting, stable, creative, optimistic, supportive. They want everything to go along smoothly and without conflict, because fear loss and separation. At Their Best: indomitable and all-embracing, they are able to bring people together and heal conflicts. During Stress: become complacent, simplifying/minimizing problems, inertia, stubbornness. Center: Nines are one of the three body-based types, also referred to as the instinctual types, because they lead with the body for movement, sensory awareness and gut-level knowledge. The focus of this center is on personal security, control, social belonging, and taking right action. Growth: In Health/Integration Nines become like healthy Threes, in Stress/Disintegration Nines become like Sixes."]
+		},
+		{
+			"Name": "1: The Reformer",
+			"Description": ["Principled, purposeful, self-controlled, conscientious, ethical, well-organized, orderly, seek to improve things. Desire to be good and live with integrity, so they can avoid making mistakes and becoming defective or corrupt. At Their Best: wise, discerning, realistic, noble, morally heroic. During Stress: become critical, perfectionistic, afraid of making a mistake, impatient, resentful. Center: Ones are one of the three body-based types, also referred to as the instinctual types, because they lead with the body for movement, sensory awareness and gut-level knowledge. The focus of this center is on personal security, control, social belonging, and taking right action. Growth: In Health/Integration Ones become like healthy Sevens, in Stress/Disintegration Ones become like Fours."]
+		},
+		{
+			"Name": "2: The Helper/Giver",
+			"Description": ["Caring, generous, empathetic, sincere, warm-hearted, friendly, generous, self-sacrificing. They are driven to be close to others out of a need to feel loved and a fear of being unwanted or unworthy. At Their Best: unselfish, altruistic, having unconditional love for others. During Stress: become people-pleasing, flattering, possessive, and have trouble acknowledging their own need. Center: Twos are one of the three heart-based types, also referred to as the emotional types, because they emphasize the heart for positive and negative feelings, romance and devotion, empathy and concern. The focus of this center is on success and relationship, performing up to other people's expectations of them. Growth: In Health/Integration Twos become like healthy Fours, in Stress/Disintegration Twos become like Eights."]
+		},
+		{
+			"Name": "3: The Achiever",
+			"Description": ["Adaptable, excelling, driven, self-assured, attractive, charming, ambitious, competent, and energetic. Feel they must be concerned with their image and what others think of them, so they can have value and worth. At Their Best: self-accepting, authentic, everything they seem to be -- role models who inspire others. During Stress: become competitive, overly concerned with image, workaholics. Center: Threes are one of the three heart-based types, also referred to as the emotional types, because they emphasize the heart for positive and negative feelings, romance and devotion, empathy and concern. The focus of this center is on success and relationship, performing up to other people's expectations of them. Growth: In Health/Integration Threes become like healthy Sixes, in Stress/Disintegration Threes become like Nines."]
+		},
+		{
+			"Name": "4: The Individualist",
+			"Description": ["Expressive, dramatic, self-aware, sensitive, reserved, emotionally honest, creative, and personal. Desire to find themselves and their significance, so they can avoid feeling vulnerable, defective, or insignificant. At Their Best: inspired and highly creative, they are able to renew themselves and transform their experiences. During Stress: become moody and self-conscious, melancholy, self-indulgent, self-pitying. Center: Fours are one of the three heart-based types, also referred to as the emotional types, because they emphasize the heart for positive and negative feelings, romance and devotion, empathy and concern. The focus of this center is on success and relationship, performing up to other people's expectations of them. Growth: In Health/Integration Fours become like healthy Ones, in Stress/Disintegration Fours become like Twos."]
+		},
+		{
+			"Name": "5: The Investigator",
+			"Description": ["Perceptive, innovative, insightful, curious, independent, innovative, inventive. They want to possess knowledge as a way of defending the self from the threats, and fear being helpless, useless. At Their Best: visionary pioneers, often ahead of their time, and able to see the world in an entirely new way. During Stress: detached, preoccupied, high-strung, intense, eccentric, isolating. Center: Fives are one of the three head-based types, also referred to as the intellectual types, because they lead with ideas, gathering relevant information, figuring things out, and making rational decisions before acting. The focus of this center is on creating certainty and safety and finding multiple options. Growth: In Health/Integration Fives become like healthy Eights, in Stress/Disintegration Fives become like Sevens."]
+		},
+		{
+			"Name": "6: The Loyalist",
+			"Description": ["Engaging, responsible, reliable, hard-working, and trustworthy; excellent troubleshooter. Want to have security and to feel supported by others, in order to avoid being without support and guidance. At Their Best: internally stable and self-reliant, courageously championing themselves and others. During Stress: become defensive, evasive, anxious; having problems with self-doubt and suspicion. Center: Sixes are one of the three head-based types, also referred to as the intellectual types, because they lead with ideas, gathering relevant information, figuring things out, and making rational decisions before acting. The focus of this center is on creating certainty and safety and finding multiple options. Growth: In Health/Integration Sixes become like healthy Nines, in Stress/Disintegration Sixes become like Threes."]
+		},
+		{
+			"Name": "7: The Enthusiast",
+			"Description": ["Spontaneous, versatile, acquisitive, extroverted, optimistic, playful, high-spirited, practical. They constantly seek new and exciting experiences, because they fear being deprived or in pain. At Their Best: They focus their talents on worthwhile goals, becoming appreciative, joyous, and satisfied. During Stress: become distracted and exhausted by staying on the go; impatient, impulsive, undisciplined. Center: Sevens are one of the three head-based types, also referred to as the intellectual types, because they lead with ideas, gathering relevant information, figuring things out, and making rational decisions before acting. The focus of this center is on creating certainty and safety and finding multiple options. Growth: In Health/Integration Sevens become like healthy Fives, in Stress/Disintegration Ones become like Ones."]
+		},
+		{
+			"Name": "8: The Protector/Challenger",
+			"Description": ["Self-confident, strong, assertive, protective, resourceful, straight-talking, and decisive. Feel they must control their environment, especially people, to avoid being harmed or controlled themselves. At Their Best: self-mastering, use their strength to improve others' lives, becoming heroic, magnanimous, and inspiring. During Stress: become domineering, egocentric, angry and eventually secretive and fearful. Center: Eights are one of the three body-based types, also referred to as the instinctual types, because they lead with the body for movement, sensory awareness and gut-level knowledge. The focus of this center is on personal security, control, social belonging, and taking right action. Growth: In Health/Integration Eights become like healthy Twos, in Stress/Disintegration Eights become like Fives."]
+			}
+		],
+	"Statements": [
+		{
+			"Candidates": [1],
+			"Text":       "It is important to me that I always do the right thing."
+		},
+		{
+			"Candidates": [2],
+			"Text":       "I like feeling loved."
+		},
+		{
+			"Candidates": [3],
+			"Text":       "I like to distinguish myself from others through my accomplishments."
+		},
+		{
+			"Candidates": [4],
+			"Text":       "I am unique."
+		},
+		{
+			"Candidates": [5],
+			"Text":       "The more I understand the more I feel in control"
+		},
+		{
+			"Candidates": [6],
+			"Text":       "I like to feel safe."
+		},
+		{
+			"Candidates": [7],
+			"Text":       "I like to experience new things."
+		},
+		{
+			"Candidates": [8],
+			"Text":       "I like being in control."
+		},
+		{
+			"Candidates": [0],
+			"Text":       "I strive to reduce conflict in my community."
+		},
+		{
+			"Candidates": [8],
+			"Text":       "My most basic, underlying fear is of being harmed or controlled by others."
+		},
+		{
+			"Candidates": [8],
+			"Text":       "My most basic longing is to be in control of my own life and and to protect those I love."
+		},
+		{
+			"Candidates": [1],
+			"Text":       "My most basic, underlying fear is being corrupt/evil or defective."
+		},
+		{
+			"Candidates": [1],
+			"Text":       "My most basic longing is to be good, to have integrity, and to be balanced."
+		},
+		{
+			"Candidates": [0],
+			"Text":       "My most basic fear is of loss and separation."
+		},
+		{
+			"Candidates": [0],
+			"Text":       "My most basic longing is to have inner stability and 'peace of mind.'"
+		},
+		{
+			"Candidates": [2],
+			"Text":       "My most basic fear is of being unwanted and unworthy of being loved."
+		},
+		{
+			"Candidates": [2],
+			"Text":       "My most basic longing is to feel loved."
+		},
+		{
+			"Candidates": [3],
+			"Text":       "My most basic fear is of being worthless."
+		},
+		{
+			"Candidates": [3],
+			"Text":       "My most basic longing is to feel valuable and worthwhile."
+		},
+		{
+			"Candidates": [5],
+			"Text":       "My most basic fear is of being useless or incapable."
+		},
+		{
+			"Candidates": [5],
+			"Text":       "My most basic longing is to be capable and competent."
+		},
+		{
+			"Candidates": [6],
+			"Text":       "My most basic fear is of being without support and guidance."
+		},
+		{
+			"Candidates": [6],
+			"Text":       "My most basic longing is to have security and support."
+		},
+		{
+			"Candidates": [7],
+			"Text":       "My most basic fear is of being deprived and in pain."
+		},
+		{
+			"Candidates": [7],
+			"Text":       "My most basic longing is to be satisfied and content – to have my needs fulfilled."
+		},
+		{
+			"Candidates": [4],
+			"Text":       "My most basic fear is that I will have no identity or personal significance."
+		},
+		{
+			"Candidates": [4],
+			"Text":       "My most basic longing is to find myself and my significance - to create my own unique identity."
+		},
+		{
+			"Candidates": [5, 6, 7],
+			"Text":       "The facts of a situation matter more than how I feel about it."
+		},
+		{
+			"Candidates": [2, 3, 4],
+			"Text":       "How I feel about a situation matters more than the facts themselves."
+		},
+		{
+			"Candidates": [8, 0, 1],
+			"Text":       "I trust my instincts."
+		},
+		{
+			"Candidates": [5, 6, 7],
+			"Text":       "I make decisions and lead with my head."
+		},
+		{
+			"Candidates": [2, 3, 4],
+			"Text":       "I make decisions and lead with my heart."
+		},
+		{
+			"Candidates": [8, 0, 1],
+			"Text":       "I make decisions and lead with my instincts and gut."
+		},
+		{
+			"Candidates": [5, 6, 7],
+			"Text":       "My focus is on creating certainty and safety, or finding multiple options."
+		},
+		{
+			"Candidates": [2, 3, 4],
+			"Text":       "My focus is on success and relationship, performing up to ours expectations."
+		},
+		{
+			"Candidates": [8, 0, 1],
+			"Text":       "My focus is on personal security, control, social belonging and taking right action."
+		},
+		{
+			"Candidates": [3, 6, 0],
+			"Text":       "I am pragmatic."
+		},
+		{
+			"Candidates": [2, 5, 8],
+			"Text":       "I like to be needed."
+		},
+		{
+			"Candidates": [1, 4, 7],
+			"Text":       "I know the world could be better and I work towards that ideal."
+		},
+		{
+			"Candidates": [3, 7, 8],
+			"Text":       "I take action."
+		},
+		{
+			"Candidates": [4, 5, 0],
+			"Text":       "I like to be prepared."
+		},
+		{
+			"Candidates": [1, 2, 6],
+			"Text":       "I prefer to make small adjustments and improvements over time."
+		},
+		{
+			"Candidates": [4, 6, 8],
+			"Text":       "When there is conflict it is important to me that my voice is heard."
+		},
+		{
+			"Candidates": [1, 3, 5],
+			"Text":       "When there is conflict I try to stay completely objective."
+		},
+		{
+			"Candidates": [2, 7, 0],
+			"Text":       "When there is conflict I like to focus on the positives."
+			}
+		]
+}

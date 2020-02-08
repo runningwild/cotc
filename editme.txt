@@ -1,0 +1,99 @@
+// Don't go crazy keeping this format correct, as long as I can piece it together in the end is all that matters.
+// When you see a '0' here it actually indicates enneagram 9 for reasons you probably don't care about.
+
+// The first 9 statements I tried to base on the information on each found at https://www.enneagraminstitute.com/
+// I think it would be good to have at least two statements that are specific to one enneagram
+// The rest are all triads, but statements can be any group: pairs, four, five, whatever.  Although realistically
+// if you have a statement for 5 of 9 enneagrams it should probably be 'inverted' in some way so that it is a
+// statement about the other 4.  The more statements the merrier, and ideally they will all have the same sort of
+// heft to them, For example if you ever saw the statements "I like feeling safe" and "I am a champion of the
+// opressed and work tirelessly to bring about positive change in my community" you might be compelled to pick the
+// first just because the second is so intense.  So phrasing like "I like to feel safe" and "I like to improve the
+// world around me" is a bit more balanced.
+		{
+			Candidates: []int{1},
+			Text:       "It is important to me that I always do the right thing.",
+		},
+		{
+			Candidates: []int{2},
+			Text:       "I like feeling loved.",
+		},
+		{
+			Candidates: []int{3},
+			Text:       "I like to distinguish myself from others through my accomplishments.",
+		},
+		{
+			Candidates: []int{4},
+			Text:       "I am unique.",
+		},
+		{
+			Candidates: []int{5},
+			Text:       "The more I understand the more I feel in control",
+		},
+		{
+			Candidates: []int{6},
+			Text:       "I like to feel safe.",
+		},
+		{
+			Candidates: []int{7},
+			Text:       "I like to experience new things",
+		},
+		{
+			Candidates: []int{8},
+			Text:       "I like being in control.",
+		},
+		{
+			Candidates: []int{0},
+			Text:       "I strive to reduce conflict in my community.",
+		},
+
+// These statements are based on triads described here: http://drdaviddaniels.com/articles/triads/
+// Are they reasonable?  I have no idea I just wrote them down, some I did not include because I couldn't
+// come up with a concise statement to represent them or because they were too similar to another statement
+// about a specific enneagram.
+		{ // Head
+			Candidates: []int{5, 6, 7},
+			Text:       "The facts of a situation matter more than how I feel about it.",
+		},
+		{ // Heart
+			Candidates: []int{2, 3, 4},
+			Text:       "How I feel about a situation matters more than the facts themselves.",
+		},
+		{ // Body
+			Candidates: []int{8, 0, 1},
+			Text:       "I trust my instincts.",
+		},
+		{ // Attachment/Earth
+			Candidates: []int{3, 6, 0},
+			Text:       "I am pragmatic.",
+		},
+		{ // Rejection/Human
+			Candidates: []int{2, 5, 8},
+			Text:       "I like to be needed.",
+		},
+		{ // Frustration/Heaven
+			Candidates: []int{1, 4, 7},
+			Text:       "I know the world could be better and I work towards that ideal.",
+		},
+		{ // Active
+			Candidates: []int{3, 7, 8},
+			Text:       "I take action.",
+		},
+		{// Receptive
+			Candidates: []int{4, 5, 0},
+			Text:       "I like to be prepared.",
+		},
+		// Couldn't find a way to phrase the 'balancing' triad to go with the above two.
+
+		{ // Expressing
+			Candidates: []int{4, 6, 8},
+			Text:       "When there is conflict it is important to me that my voice is heard.",
+		},
+		{ // Containing
+			Candidates: []int{1, 3, 5},
+			Text:       "When there is conflict I try to stay completely objective.",
+		},
+		{ // Reframing
+			Candidates: []int{2, 7, 0},
+			Text:       "When there is conflict I like to focus on the positives.",
+		},

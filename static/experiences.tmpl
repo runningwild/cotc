@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head style="overflow-x:hidden">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+	<link rel="stylesheet" href="/static/layout.css">
+</head>
+<body>
+<div class="main">
+<div class="content">
+<div class="grids-example">
+<form class="pure-form pure-g" method="post" formaction="/experiences">
+    <div class="pure-u-1">
+        <a class="pure-button return-to-main" href="/core?user={{$.UserKey}}">Return to Main Menu</a>
+    </div>
+    {{range $exp := .Experiences.Statements}}
+    <div class="pure-u-1">
+            <label class="pure-input-1">{{$exp.Text}}</label>
+            <input class="pure-input-1" name="{{$exp.ID}}" type="text" value="{{index $.Results $exp.ID}}">
+    </div>
+    {{end}}
+    <div class="pure-u-1">
+        <input type="hidden" id="user" value="{{.UserKey}}">
+        <button type="submit" class="pure-button pure-button-primary" style="white-space:normal;">Done!</button>
+    </div>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
