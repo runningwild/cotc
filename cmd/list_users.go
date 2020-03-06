@@ -25,7 +25,7 @@ func main() {
 }
 
 func doit(ctx context.Context) error {
-	client, err := datastore.NewClient(ctx, "churchofthecity")
+	client, err := datastore.NewClient(ctx, "montage-generator")
 	if err != nil {
 		panic(fmt.Sprintf("WHAT: %v", err))
 	}

@@ -24,7 +24,7 @@ import (
 
 func main() {
 	ctx := context.Background()
-	client, err := datastore.NewClient(ctx, "churchofthecity")
+	client, err := datastore.NewClient(ctx, "montage-generator")
 	if err != nil {
 		panic(fmt.Sprintf("WHAT: %v", err))
 	}
@@ -39,10 +39,10 @@ func main() {
 		var v vote.Vote
 		data, err := ioutil.ReadFile("static/" + name + ".json")
 		if err != nil {
-			panic(err)
+			panic(fmt.Sprintf("Failure reading %q: %v", name, err))
 		}
 		if err := json.Unmarshal(data, &v); err != nil {
-			panic(err)
+			panic(fmt.Sprintf("Failure parsing %q: %v", name, err))
 		}
 		//http.HandleFunc("/survey/" + name, voteHandler(&v))
 		r.HandleFunc("/survey/"+name, voteHandler(&v, client, name, tk))

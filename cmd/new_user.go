@@ -11,11 +11,15 @@ import (
 	"github.com/runningwild/cotc/types"
 )
 
+var (
+	list = flag.String("list", "", "list of 'first last email' repeats separated by commas")
+)
+
 func main() {
 	flag.Parse()
 	ctx := context.Background()
 
-	for _, person := range list {
+	for _, person := range strings.Split(*list, ",") {
 		parts := strings.Split(person, " ")
 		email := strings.ToLower(parts[len(parts)-1])
 		first := parts[0]
@@ -27,7 +31,7 @@ func main() {
 }
 
 func doit(ctx context.Context, email, first, last string) error {
-	client, err := datastore.NewClient(ctx, "churchofthecity")
+	client, err := datastore.NewClient(ctx, "montage-generator")
 	if err != nil {
 		panic(fmt.Sprintf("WHAT: %v", err))
 	}
@@ -45,10 +49,4 @@ func doit(ctx context.Context, email, first, last string) error {
 		}
 	}
 	return nil
-}
-
-var list = []string{
-	"Lauren Cook lecook10@comcast.net",
-	"Ben Goff benjaminygoff@gmail.com",
-	"Dan Andrews dandrews412@gmail.com",
 }
