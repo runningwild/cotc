@@ -14,8 +14,14 @@ import (
 )
 
 func main() {
+	doeverything("strengths")
+	doeverything("enneagram")
+	doeverything("gifts")
+}
+func doeverything(survey string) {
+	fmt.Printf("%q\n", survey)
 	var v vote.Vote
-	data, err := ioutil.ReadFile("../static/strengths.json")
+	data, err := ioutil.ReadFile(fmt.Sprintf("../static/%s.json", survey))
 	if err != nil {
 		panic(err)
 	}
@@ -28,21 +34,44 @@ func main() {
 	totalAccuracy := 0.0
 	var mu sync.Mutex
 	var wg sync.WaitGroup
+	var hists []int
 	for i := start; i < start+N; i++ {
 		wg.Add(1)
 		go func(roundNum int) {
 			defer wg.Done()
-			q, a, data := round(&v, rand.New(rand.NewSource(int64(roundNum))))
+			q, a, data, hist := round(&v, rand.New(rand.NewSource(int64(roundNum))))
 			mu.Lock()
 			totalQuestions += q
 			totalAccuracy += a
-			fmt.Printf("%s\n", data)
+			for len(hists) < len(hist) {
+				hists = append(hists, 0)
+			}
+			for i := range hist {
+				hists[i] += hist[i]
+			}
+			if len(data) > 0 {
+				fmt.Printf("%s\n", data)
+			}
 			mu.Unlock()
 		}(i)
 	}
 	wg.Wait()
 	fmt.Printf("avg %v\n", float64(totalQuestions)/float64(N))
 	fmt.Printf("acc %v\n", totalAccuracy/float64(N))
+	cutoff := int(math.Sqrt(float64(v.MaxRounds))) + 1
+	fmt.Printf("Understat(%d): %v\n", cutoff, understat(hists, cutoff))
+}
+
+func understat(hist []int, cutoff int) float64 {
+	total := 0
+	for _, v := range hist {
+		total += v
+	}
+	under := 0
+	for _, v := range hist[0:cutoff] {
+		under += v
+	}
+	return float64(under) / float64(total)
 }
 
 func score(cands, rank []int) float64 {
@@ -55,7 +84,7 @@ func score(cands, rank []int) float64 {
 	return val
 }
 
-func round(v *vote.Vote, rng *rand.Rand) (questions int, accuracy float64, data string) {
+func round(v *vote.Vote, rng *rand.Rand) (questions int, accuracy float64, data string, hist []int) {
 	rank := make([]int, len(v.Candidates))
 	for i := range rank {
 		rank[i] = i
@@ -71,10 +100,14 @@ func round(v *vote.Vote, rng *rand.Rand) (questions int, accuracy float64, data 
 	}
 	var margin float64 = 1
 	var prefs []types.Preference
+	qCount := make(map[int]int)
 	for {
 		q := v.NextQuestion(prefs, rng)
 		if q == nil {
 			break
+		}
+		for _, i := range q {
+			qCount[i]++
 		}
 
 		var opt int = -1
@@ -96,7 +129,6 @@ func round(v *vote.Vote, rng *rand.Rand) (questions int, accuracy float64, data 
 		if scores[v.Min-1].Quality > math.Pow(0.99, float64(len(v.Candidates))) {
 			break
 		}
-		fmt.Printf("Added pref: %v\n", pref)
 		prefs = append(prefs, pref)
 		g := v.CandidateGrid(prefs)
 		vote.SchulzeStrictify(g)
@@ -111,16 +143,23 @@ func round(v *vote.Vote, rng *rand.Rand) (questions int, accuracy float64, data 
 			break
 		}
 	}
+	hist = nil
+	for _, count := range qCount {
+		for len(hist) <= count {
+			hist = append(hist, 0)
+		}
+		hist[count]++
+	}
 	scores := v.Score(prefs)
 	var top []int
 	for i := 0; i < v.Min; i++ {
 		top = append(top, scores[i].Candidate)
 	}
-	data += fmt.Sprintf("File: %v\n", file)
-	data += fmt.Sprintf("Final: %v\n", top)
-	if fmt.Sprintf("%v", top) == fmt.Sprintf("%v", file[0:len(top)]) {
-		fmt.Printf("ALL IN ONE\n")
-	}
+	// data += fmt.Sprintf("File: %v\n", file)
+	// data += fmt.Sprintf("Final: %v\n", top)
+	// if fmt.Sprintf("%v", top) == fmt.Sprintf("%v", file[0:len(top)]) {
+	// 	fmt.Printf("ALL IN ONE\n")
+	// }
 
 	acc := 0.0
 	opt := 0.0
@@ -133,5 +172,5 @@ func round(v *vote.Vote, rng *rand.Rand) (questions int, accuracy float64, data 
 	opt /= float64(len(top))
 	opt = math.Sqrt(opt)
 	acc = (acc+1)/(opt+1) - 1
-	return len(prefs), acc, data
+	return len(prefs), acc, data, hist
 }

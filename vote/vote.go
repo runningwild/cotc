@@ -53,6 +53,21 @@ func (v *Vote) NextQuestion(prefs []types.Preference, rng *rand.Rand) []int {
 	FloydWarshallSchulze(weight)
 	minData := 1
 
+	// knowledge will be a rough estimate of how many people we've already compared a candidate to
+	var knowledge []int
+	for i := range weight {
+		count := 0
+		for j := range weight {
+			if i == j {
+				continue
+			}
+			if weight[i][j] >= float64(minData) {
+				count++
+			}
+		}
+		knowledge = append(knowledge, count)
+	}
+
 	var needy [][2]int
 	for i := range weight {
 		for j := range weight {
@@ -62,6 +77,18 @@ func (v *Vote) NextQuestion(prefs []types.Preference, rng *rand.Rand) []int {
 		}
 	}
 	rng.Shuffle(len(needy), func(i, j int) { needy[i], needy[j] = needy[j], needy[i] })
+	sort.SliceStable(needy, func(i, j int) bool {
+		a := knowledge[needy[i][0]] - knowledge[needy[i][1]]
+		b := knowledge[needy[j][0]] - knowledge[needy[j][1]]
+		if a < 0 {
+			a = -a
+		}
+		if b < 0 {
+			b = -b
+		}
+		return a > b
+	})
+	// rng.Shuffle(len(needy), func(i, j int) { needy[i], needy[j] = needy[j], needy[i] })
 
 	candidateToStatements := make([][]int, len(v.Candidates))
 	for i := range v.Statements {
@@ -112,41 +139,33 @@ func (v *Vote) NextQuestion(prefs []types.Preference, rng *rand.Rand) []int {
 			if v.RoundSize > roundSize {
 				roundSize = v.RoundSize
 			}
-			usedStatementPairs := make(map[[2]int]int)
-			usedCandidatePairs := make(map[[2]int]int)
+			usedStatements := make(map[int]int)
+			usedCandidates := make(map[int]int)
 			for _, pref := range prefs {
 				ss := append([]int{pref.A}, pref.B...)
 				for i := range ss {
-					for j := i + 1; j < len(ss); j++ {
-						usedStatementPairs[[2]int{ss[i], ss[j]}]++
-						usedStatementPairs[[2]int{ss[j], ss[i]}]++
-						ca := v.Statements[ss[i]].Candidates[0]
-						cb := v.Statements[ss[j]].Candidates[0]
-						usedCandidatePairs[[2]int{ca, cb}]++
-						usedCandidatePairs[[2]int{cb, ca}]++
-					}
+					usedStatements[ss[i]]++
+					usedCandidates[v.Statements[ss[i]].Candidates[0]]++
 				}
 			}
 
-			round := choices(usedCandidatePairs, scores, roundSize, rng)
+			round := choices(usedCandidates, scores, roundSize, rng)
 			// Now assign statements to each candidate, but prefer an assignment that reduces the
 			// number of pairs of statements the user sees repeated.
 			var bestStatements []int
-			var lowestUsedPairs int
+			var lowestUsed int
 			for i := 0; i < 5; i++ {
 				var statements []int
 				for _, c := range round {
 					ss := candidateToStatements[scores[c].Candidate]
 					statements = append(statements, ss[rng.Intn(len(ss))])
 				}
-				var usedPairs int
+				var used int
 				for j := range statements {
-					for k := j + 1; k < len(statements); k++ {
-						usedPairs += usedStatementPairs[[2]int{statements[j], statements[k]}]
-					}
+					used += usedStatements[statements[j]]
 				}
-				if usedPairs < lowestUsedPairs || bestStatements == nil {
-					lowestUsedPairs = usedPairs
+				if used < lowestUsed || bestStatements == nil {
+					lowestUsed = used
 					bestStatements = statements
 				}
 			}
@@ -233,12 +252,12 @@ type Score struct {
 	Quality   float64
 }
 
-func choices(usedCandidatePairs map[[2]int]int, scores []Score, numChoices int, rng *rand.Rand) []int {
+func choices(usedCandidates map[int]int, scores []Score, numChoices int, rng *rand.Rand) []int {
 	var best float64
 	var choice []int
 	for i := 0; i < 10; i++ {
 		round := singleChoice(scores, numChoices, rng)
-		s := scoreChoice(usedCandidatePairs, round, scores)
+		s := scoreChoice(usedCandidates, round, scores)
 		if s > best {
 			best = s
 			choice = round
@@ -247,7 +266,7 @@ func choices(usedCandidatePairs map[[2]int]int, scores []Score, numChoices int, 
 	return choice
 }
 
-func scoreChoice(usedCandidatePairs map[[2]int]int, choice []int, scores []Score) float64 {
+func scoreChoice(usedCandidates map[int]int, choice []int, scores []Score) float64 {
 	round := make([]Score, len(choice))
 	for i, c := range choice {
 		round[i] = scores[c]
@@ -262,9 +281,7 @@ func scoreChoice(usedCandidatePairs map[[2]int]int, choice []int, scores []Score
 	}
 	var repeatFactor float64 = 1
 	for i := range choice {
-		for j := i + 1; j < len(choice); j++ {
-			repeatFactor *= math.Pow(1.1, -float64(usedCandidatePairs[[2]int{choice[i], choice[j]}]))
-		}
+		repeatFactor *= math.Pow(1.1, -float64(usedCandidates[choice[i]]))
 	}
 	return sum * deltaProd * repeatFactor
 }
