@@ -119,7 +119,9 @@ func gicmpHandler(g *types.GICMPData, client *datastore.Client, tk *keeper.Keepe
 		}
 		q := len(gr.Ratings)
 		env := map[string]interface{}{
-			"Statement": g.Statements[q],
+			"Question":     q + 1,
+			"NumQuestions": len(g.Statements),
+			"Statement":    g.Statements[q],
 			"Links": map[string]string{
 				"Rarely":    fmt.Sprintf("/gicmp?user=%s&s=0&q=%d", user.Key().Name, q),
 				"Sometimes": fmt.Sprintf("/gicmp?user=%s&s=1&q=%d", user.Key().Name, q),
