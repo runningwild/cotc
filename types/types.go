@@ -14,12 +14,12 @@ import (
 type User struct {
 	Email     string
 	FirstName string
-	LastName  string
+	FullName  string
 }
 
 func (u *User) Key() *datastore.Key {
 	hash := make([]byte, 8)
-	sha3.ShakeSum256(hash, []byte(fmt.Sprintf("%s:%s:%s", u.Email, u.FirstName, u.LastName)))
+	sha3.ShakeSum256(hash, []byte(fmt.Sprintf("%s:%s:%s", u.Email, u.FirstName, u.FullName)))
 	return datastore.NameKey("user", base64.URLEncoding.EncodeToString(hash), nil)
 }
 

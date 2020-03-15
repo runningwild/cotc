@@ -30,7 +30,7 @@ func main() {
 	}
 }
 
-func doit(ctx context.Context, email, first, last string) error {
+func doit(ctx context.Context, email, first, full string) error {
 	client, err := datastore.NewClient(ctx, "montage-generator")
 	if err != nil {
 		panic(fmt.Sprintf("WHAT: %v", err))
@@ -38,7 +38,7 @@ func doit(ctx context.Context, email, first, last string) error {
 	u := &types.User{
 		Email:     email,
 		FirstName: first,
-		LastName:  last,
+		FullName:  full,
 	}
 	m := datastore.NewInsert(u.Key(), u)
 	if keys, err := client.Mutate(ctx, m); err != nil {

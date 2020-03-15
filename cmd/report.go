@@ -104,7 +104,7 @@ func singleUserReport(user *allUserData, surveyData surveyData) *gofpdf.Fpdf {
 	// Name and email on the upper right
 	pdf.SetFont("Luminari", "", 20)
 	_, h = pdf.GetFontSize()
-	pdf.WriteAligned(right-left, h, user.FirstName+" "+user.LastName, "R")
+	pdf.WriteAligned(right-left, h, user.FullName, "R")
 	pdf.Ln(h)
 	pdf.SetFont("Arial", "", 20)
 	pdf.WriteAligned(right-left, h, user.Email, "R")
